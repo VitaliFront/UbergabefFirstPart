@@ -30,6 +30,7 @@
 		F86BD09D2A944D0A00ED7AEA /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BD09C2A944D0A00ED7AEA /* LoginViewViewModel.swift */; };
 		F86BD09F2A944D1F00ED7AEA /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BD09E2A944D1F00ED7AEA /* RegisterViewViewModel.swift */; };
 		F86BD0A12A944D2F00ED7AEA /* BewohnerItemsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BD0A02A944D2F00ED7AEA /* BewohnerItemsViewViewModel.swift */; };
+		F88759EC2A9548BE0077B804 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88759EB2A9548BE0077B804 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		F86BD09C2A944D0A00ED7AEA /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		F86BD09E2A944D1F00ED7AEA /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		F86BD0A02A944D2F00ED7AEA /* BewohnerItemsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BewohnerItemsViewViewModel.swift; sourceTree = "<group>"; };
+		F88759EB2A9548BE0077B804 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				F86BD08A2A944BA700ED7AEA /* LoginView.swift */,
 				F86BD08C2A944BB500ED7AEA /* RegisterView.swift */,
 				F86BD08E2A944BE600ED7AEA /* BewohnerItemsView.swift */,
+				F88759EB2A9548BE0077B804 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F86BD0992A944CDA00ED7AEA /* UbergabeItemsViewViewModel.swift in Sources */,
+				F88759EC2A9548BE0077B804 /* HeaderView.swift in Sources */,
 				F86BD08B2A944BA700ED7AEA /* LoginView.swift in Sources */,
 				F86BD09F2A944D1F00ED7AEA /* RegisterViewViewModel.swift in Sources */,
 				F86BD0932A944C6500ED7AEA /* UbergabeItem.swift in Sources */,
