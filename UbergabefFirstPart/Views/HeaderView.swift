@@ -19,14 +19,19 @@ struct HeaderView: View {
                     .font(.system(size: 50))
                     .foregroundColor(Color.white)
                     .bold()
-                Text("Mach es Leichter")
+                Text("Macht es Leichter")
                     .font(.system(size: 30))
                     .foregroundColor(Color.white)
             }
             .padding(.top, 30)
+            
         }
+        
         .frame(width: UIScreen.main.bounds.width * 3, height: 300)
-        .offset(y: -100)    }
+        
+        .offset(y: -100)
+        
+    }
 }
 
 struct HeaderView_Previews: PreviewProvider {

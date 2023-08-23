@@ -12,12 +12,16 @@ struct MainView: View {
         NavigationView {
             LoginView()
         }
-        .padding()
+        
+//        .padding()
+        .ignoresSafeArea()
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         MainView()
+            
     }
 }

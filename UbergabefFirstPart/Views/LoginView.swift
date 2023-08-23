@@ -14,7 +14,7 @@ struct LoginView: View {
     var body: some View {
         VStack{
             // Header
-         HeaderView()
+            HeaderView()
             // Login Form
             
             Form {
@@ -34,7 +34,7 @@ struct LoginView: View {
                             .bold()
                     }
                 }
-
+                
             }
             
             
@@ -45,9 +45,8 @@ struct LoginView: View {
                     // Show registration
                 }
             }
+            .ignoresSafeArea()
             .padding(.bottom, 50)
-            
-            
             Spacer()
         }
     }
