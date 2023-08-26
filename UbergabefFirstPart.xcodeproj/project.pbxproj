@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F84996882A996D3E00F8E883 /* UBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84996872A996D3E00F8E883 /* UBButton.swift */; };
 		F86BD0692A943DDA00ED7AEA /* UbergabefFirstPartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BD0682A943DDA00ED7AEA /* UbergabefFirstPartApp.swift */; };
 		F86BD06B2A943DDA00ED7AEA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BD06A2A943DDA00ED7AEA /* MainView.swift */; };
 		F86BD06D2A943DDB00ED7AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86BD06C2A943DDB00ED7AEA /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F84996872A996D3E00F8E883 /* UBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBButton.swift; sourceTree = "<group>"; };
 		F86BD0652A943DDA00ED7AEA /* UbergabefFirstPart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UbergabefFirstPart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86BD0682A943DDA00ED7AEA /* UbergabefFirstPartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbergabefFirstPartApp.swift; sourceTree = "<group>"; };
 		F86BD06A2A943DDA00ED7AEA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				F86BD08C2A944BB500ED7AEA /* RegisterView.swift */,
 				F86BD08E2A944BE600ED7AEA /* BewohnerItemsView.swift */,
 				F88759EB2A9548BE0077B804 /* HeaderView.swift */,
+				F84996872A996D3E00F8E883 /* UBButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				F86BD08F2A944BE600ED7AEA /* BewohnerItemsView.swift in Sources */,
 				F86BD0872A944B7600ED7AEA /* UbergabeItemsView.swift in Sources */,
 				F86BD0972A944CC600ED7AEA /* ProfileViewViewModel.swift in Sources */,
+				F84996882A996D3E00F8E883 /* UBButton.swift in Sources */,
 				F86BD06B2A943DDA00ED7AEA /* MainView.swift in Sources */,
 				F86BD08D2A944BB500ED7AEA /* RegisterView.swift in Sources */,
 				F86BD0912A944C4B00ED7AEA /* User.swift in Sources */,

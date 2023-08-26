@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State var email = ""
-    @State var password = ""
+  @StateObject var viewModel = LoginViewViewModel()
     
     var body: some View {
         NavigationView {
@@ -20,25 +19,23 @@ struct LoginView: View {
                 // Login Form
                 
                 Form {
-                    TextField("Email ", text: $email)
+                    TextField("Email ", text: $viewModel.email)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
-                    SecureField("Kennwort", text: $password)
+                        .textInputAutocapitalization(.none)
+                    SecureField("Kennwort", text: $viewModel.password)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     
-                    Button {
-                        // Attempt log in
-                    } label: {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(Color.blue)
-                            Text("Log In")
-                                .foregroundColor(Color.white)
-                                .bold()
+                    
+                    UBButton(
+                        title: "Log In",
+                        background: .blue) {
+                            //Attempt Log In
                         }
-                    }
-                    .padding()
+                        .padding()
+
                     
                 }
+                .offset(y: -50)
                 
                 
                 //MARK: Create Account
