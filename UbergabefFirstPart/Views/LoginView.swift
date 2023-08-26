@@ -17,24 +17,27 @@ struct LoginView: View {
                 HeaderView(title: "Ubergabe", subtitle: "Macht es leicht", angle: 15, background: .pink)
                 
                 // Login Form
+               
                 
                 Form {
+                    if !viewModel.errorMesage.isEmpty {
+                        Text(viewModel.errorMesage)
+                            .foregroundColor(Color.red)
+                    }
                     TextField("Email ", text: $viewModel.email)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .textInputAutocapitalization(.none)
                     SecureField("Kennwort", text: $viewModel.password)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     
-                    
                     UBButton(
-                        title: "Log In",
+                        title: "Anmelden",
                         background: .blue) {
-                            //Attempt Log In
+                            viewModel.login()
                         }
                         .padding()
-
-                    
                 }
+                
                 .offset(y: -50)
                 
                 
