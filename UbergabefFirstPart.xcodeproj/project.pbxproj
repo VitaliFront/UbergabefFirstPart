@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F84996882A996D3E00F8E883 /* UBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84996872A996D3E00F8E883 /* UBButton.swift */; };
+		F84A50E02A9AA9330046D4E5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A50DF2A9AA9330046D4E5 /* Extensions.swift */; };
 		F86BD0692A943DDA00ED7AEA /* UbergabefFirstPartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BD0682A943DDA00ED7AEA /* UbergabefFirstPartApp.swift */; };
 		F86BD06B2A943DDA00ED7AEA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BD06A2A943DDA00ED7AEA /* MainView.swift */; };
 		F86BD06D2A943DDB00ED7AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86BD06C2A943DDB00ED7AEA /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		F84996872A996D3E00F8E883 /* UBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBButton.swift; sourceTree = "<group>"; };
+		F84A50DF2A9AA9330046D4E5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F86BD0652A943DDA00ED7AEA /* UbergabefFirstPart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UbergabefFirstPart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86BD0682A943DDA00ED7AEA /* UbergabefFirstPartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbergabefFirstPartApp.swift; sourceTree = "<group>"; };
 		F86BD06A2A943DDA00ED7AEA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				F86BD06C2A943DDB00ED7AEA /* Assets.xcassets */,
 				F86BD07D2A9446C800ED7AEA /* GoogleService-Info.plist */,
 				F86BD0682A943DDA00ED7AEA /* UbergabefFirstPartApp.swift */,
+				F84A50DF2A9AA9330046D4E5 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				F86BD08D2A944BB500ED7AEA /* RegisterView.swift in Sources */,
 				F86BD0912A944C4B00ED7AEA /* User.swift in Sources */,
 				F86BD09D2A944D0A00ED7AEA /* LoginViewViewModel.swift in Sources */,
+				F84A50E02A9AA9330046D4E5 /* Extensions.swift in Sources */,
 				F86BD0852A944B4300ED7AEA /* ProfileView.swift in Sources */,
 				F86BD0692A943DDA00ED7AEA /* UbergabefFirstPartApp.swift in Sources */,
 				F86BD0892A944B9D00ED7AEA /* NewItemView.swift in Sources */,
